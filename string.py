@@ -46,8 +46,7 @@ def generator():
         letter4=random.choice(letters)
     else:
         letter4=letter_input_4
-
-
     name=letter1+letter2+letter3+letter4
     return(name)
-    print(generator())     
+    for i in range(50):
+        print(generator())     
